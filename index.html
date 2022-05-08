@@ -10,27 +10,35 @@
 </head>
 <body>
 <header>
+<div class="logo">
   <img src="./CSS/Vector (2).svg" alt="Alura">
+</div>
 </header>
 <body>
   <main class = "main">
-    <section>
-      <textarea class="input-texto" cols="40" rows="6" placeholder="Digite Seu Texto"></textarea>
+    <section class="wrapper">
+      <div class="textoes">
+      <textarea class="input-texto" cols="10" rows="8" placeholder="Digite Seu Texto"></textarea>
+      <textarea class="mensagem" cols="20" rows="8"></textarea>
+    </div>
       <div>
         <h6 class="informacao">Apenas Letras Maiúsculas e Minúsculas</h6>
       </div>
-      <div class="botoes">
-        <button class="encriptar" onclick="btnEncriptar()" >
-            Criptogafar
-        </button>
-        <button class="desemcriptar" onclick="btnDesencriptar()" >
-          Descriptogafar
-        </button>
-      </div>
-</section>
-<section>
-    <textarea class="mensagem" cols="18" rows="8"></textarea>
+
+      <section class="buttons">
+        <div class="botoes">
+          <button class="encriptar" onclick="btnEncriptar()" >
+              Criptogafar
+          </button>
+          <button class="desemcriptar" onclick="btnDesencriptar()" >
+            Descriptogafar
+          </button>
+        </div>
+    </section>
+
+    
   </section>
+  
 </main>
   <script src="scrip.js"></script>
 </body>

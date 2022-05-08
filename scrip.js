@@ -5,6 +5,7 @@ const mensagem = document.querySelector(".mensagem"); //Obter valor em mensagem 
 function btnEncriptar(){
   const textoEncriptado = encriptar(inputTexto.value) //constante recebe retorno da função encriptar
   mensagem.value = textoEncriptado  //valor da mensagem é da constante textoExcriptado
+  mensagem.style.background = 'none'
 }
 
 
